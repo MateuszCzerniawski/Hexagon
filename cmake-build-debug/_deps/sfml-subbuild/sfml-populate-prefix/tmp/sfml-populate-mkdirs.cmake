@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src"
-  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-build"
-  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix"
-  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
-  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
-  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src"
-  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src"
+  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-build"
+  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix"
+  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
+  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src"
+  "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

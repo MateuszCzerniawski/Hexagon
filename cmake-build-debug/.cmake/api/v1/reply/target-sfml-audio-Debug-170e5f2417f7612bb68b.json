@@ -103,19 +103,19 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers"
 				}
 			],
 			"language" : "CXX",

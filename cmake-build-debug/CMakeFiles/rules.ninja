@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Project1
+# Project: Hexagon
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -156,7 +156,7 @@ rule CXX_STATIC_LIBRARY_LINKER__sfml-audio_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\PC\Desktop\Studia\semestr 2\PJC\Project1" -B"C:\Users\PC\Desktop\Studia\semestr 2\PJC\Project1\cmake-build-debug"
+  command = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\PC\Desktop\Studia\semestr 2\PJC\Hexagon" -B"C:\Users\PC\Desktop\Studia\semestr 2\PJC\Hexagon\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

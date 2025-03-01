@@ -111,19 +111,19 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",
@@ -197,19 +197,19 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",

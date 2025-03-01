@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1
+# Install script for directory: C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-build/cmake_install.cmake")
+  include("C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

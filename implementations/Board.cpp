@@ -23,8 +23,11 @@ void Board::load() {
     int counter=0;
     while(getline(in,line)) {
         this->textData.push_back(line);
-        for(char c : line)
-            if(c!=' ')this->data.push_back(new Field(counter++,c));
+        for(char c : line) {
+            if (c != ' ') {
+                this->data.push_back(new Field(counter++, c));
+            }
+        }
     }
     this->data.at(0 )->setWhoHere('f');
     this->data.at(46)->setWhoHere('f');
@@ -41,12 +44,14 @@ void Board::loadSave(fstream& in){
 }
 void Board::loadSave(string line){
     data.clear();
-    for(int i=0;i<line.size();i++)
-        data.push_back(new Field(i,line.at(i)));
+    for(int i=0;i<line.size();i++) {
+        data.push_back(new Field(i, line.at(i)));
+    }
 }
 void Board::save(fstream& out){
-    for(auto f : data)
-        out<<f->getWhoHere();
+    for(auto f : data) {
+        out << f->getWhoHere();
+    }
 }
 void Board::showCoordinates() {
     int index=0;
@@ -54,10 +59,18 @@ void Board::showCoordinates() {
         for(char c : s){
             if(c!=' '){
                 int tmp=this->data.at(index++)->getCoordinate();
-                if(tmp==21 || tmp==34 || tmp==35) c='x';
-                if(c!='x') cout<<(tmp<10?" ":"")<<tmp;
-                else cout<<"x ";
-            } else cout<<c;
+                if(tmp==21 || tmp==34 || tmp==35) {
+                    c = 'x';
+                }
+                if(c!='x') {
+                    cout << (tmp < 10 ? " " : "") << tmp;
+                }
+                else {
+                    cout << "x ";
+                }
+            } else {
+                cout << c;
+            }
         }
         cout<<endl;
     }
@@ -65,7 +78,9 @@ void Board::showCoordinates() {
 int Board::count(const char& toCount){
     int result=0;
     for(Field* field : this->data)
-        if(field->getWhoHere()==toCount) result++;
+        if(field->getWhoHere()==toCount) {
+            result++;
+        }
     return result;
 }
 const vector<Board::Field*> &Board::getData() const {

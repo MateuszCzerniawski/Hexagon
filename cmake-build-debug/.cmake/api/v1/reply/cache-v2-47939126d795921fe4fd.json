@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug"
+			"value" : "c:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -899,7 +899,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project1"
+			"value" : "Hexagon"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1371,7 +1371,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenAL",
@@ -1383,7 +1383,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL][v()]"
+			"value" : "[C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1407,7 +1407,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers][C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FLAC_INCLUDE_DIR",
@@ -1423,7 +1423,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "FLAC_LIBRARY",
@@ -1439,7 +1439,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1455,7 +1455,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_ft2build",
@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_LIBRARY",
@@ -1487,7 +1487,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a"
 		},
 		{
 			"name" : "GIT_EXECUTABLE",
@@ -1554,6 +1554,42 @@
 			"value" : "1"
 		},
 		{
+			"name" : "Hexagon_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug"
+		},
+		{
+			"name" : "Hexagon_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Hexagon_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon"
+		},
+		{
 			"name" : "OGG_INCLUDE_DIR",
 			"properties" : 
 			[
@@ -1567,7 +1603,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "OGG_LIBRARY",
@@ -1583,7 +1619,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a"
 		},
 		{
 			"name" : "OPENAL_INCLUDE_DIR",
@@ -1599,7 +1635,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL"
 		},
 		{
 			"name" : "OPENAL_LIBRARY",
@@ -1615,7 +1651,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -1659,7 +1695,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug"
 		},
 		{
 			"name" : "Project1_IS_TOP_LEVEL",
@@ -1683,7 +1719,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon"
 		},
 		{
 			"name" : "SFML_BINARY_DIR",
@@ -1695,7 +1731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-build"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-build"
 		},
 		{
 			"name" : "SFML_BUILD_AUDIO",
@@ -1839,7 +1875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src"
 		},
 		{
 			"name" : "SFML_USE_STATIC_STD_LIBS",
@@ -1891,7 +1927,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a"
 		},
 		{
 			"name" : "VORBISFILE_LIBRARY",
@@ -1907,7 +1943,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a"
 		},
 		{
 			"name" : "VORBIS_INCLUDE_DIR",
@@ -1923,7 +1959,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/headers"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "VORBIS_LIBRARY",
@@ -1939,7 +1975,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a"
+			"value" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

@@ -89,11 +89,11 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-src/src"
 				}
 			],
 			"language" : "CXX",

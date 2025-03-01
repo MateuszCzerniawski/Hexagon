@@ -28,8 +28,9 @@ HighScores::HighScores(Board* current,GraphicsParameters* parameters){
     std::ranges::sort(records,sortHelp);
 }
 HighScores::~HighScores(){
-    for(auto i : records)
+    for(auto i : records) {
         delete i;
+    }
     records.clear();
 }
 sf::Color HighScores::getColor(int which){
@@ -59,8 +60,12 @@ pair<int,int> HighScores::getScores(int which){
     Board& board = *records.at(which);
     int count1=0,count2=0;
     for(auto i : board.getData()){
-        if(i->getWhoHere()=='f') count1++;
-        if(i->getWhoHere()=='s') count2++;
+        if(i->getWhoHere()=='f') {
+            count1++;
+        }
+        if(i->getWhoHere()=='s') {
+            count2++;
+        }
     }
     result.first=count1;
     result.second=count2;
@@ -70,8 +75,12 @@ pair<int,int> HighScores::getScores(Board* board){
     pair<int , int > result;
     int count1=0,count2=0;
     for(auto i : board->getData()){
-        if(i->getWhoHere()=='f') count1++;
-        if(i->getWhoHere()=='s') count2++;
+        if(i->getWhoHere()=='f') {
+            count1++;
+        }
+        if(i->getWhoHere()=='s') {
+            count2++;
+        }
     }
     result.first=count1;
     result.second=count2;

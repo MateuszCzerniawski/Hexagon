@@ -1,37 +1,37 @@
 # ninja log v5
-1	36	7625347431179946	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	acc8cb6b909afb66
-1	36	7625347431179946	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	acc8cb6b909afb66
-157	186	7625347873447308	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	c76aff47bf19ab28
-1	70	0	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	302a6ea92e671278
-70	98	7625347872569848	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	d052e9b1540a6981
-214	254	7625347874127456	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	6c7d1fc5fa4b398a
-36	5069	7625347481508690	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	8a83e433d1e00a51
-1	70	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	302a6ea92e671278
-70	98	7625347872569848	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	d052e9b1540a6981
-36	5069	7625347481508690	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	8a83e433d1e00a51
-98	128	7625347872867234	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	9438c6b92a291786
-98	128	7625347872867234	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	9438c6b92a291786
-128	157	7625347873157309	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	91a4f1eafac0cc1c
-128	157	7625347873157309	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	91a4f1eafac0cc1c
-157	186	7625347873447308	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	c76aff47bf19ab28
-186	214	7625347873732380	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	990465502abc4fb1
-186	214	7625347873732380	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	990465502abc4fb1
-214	254	7625347874127456	CMakeFiles/sfml-populate-complete	6c7d1fc5fa4b398a
-214	254	7625347874127456	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	6c7d1fc5fa4b398a
-214	254	7625347874127456	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	6c7d1fc5fa4b398a
-0	77	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	302a6ea92e671278
-0	77	0	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	302a6ea92e671278
-77	106	7625348039250035	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	d052e9b1540a6981
-77	106	7625348039250035	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	d052e9b1540a6981
-106	138	7625348039555094	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	9438c6b92a291786
-106	138	7625348039555094	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	9438c6b92a291786
-138	167	7625348039852770	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	91a4f1eafac0cc1c
-138	167	7625348039852770	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	91a4f1eafac0cc1c
-167	197	7625348040152771	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	c76aff47bf19ab28
-167	197	7625348040152771	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	c76aff47bf19ab28
-197	227	7625348040452776	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	990465502abc4fb1
-197	227	7625348040452776	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	990465502abc4fb1
-227	267	7625348040853838	CMakeFiles/sfml-populate-complete	6c7d1fc5fa4b398a
-227	267	7625348040853838	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	6c7d1fc5fa4b398a
-227	267	7625348040853838	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	6c7d1fc5fa4b398a
-227	267	7625348040853838	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	6c7d1fc5fa4b398a
+0	30	7625352006369843	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	f3006983ee7d583e
+0	30	7625352006369843	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	f3006983ee7d583e
+4995	5025	7625352056314590	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	a0b5330afc6346f7
+31	4918	7625352055237611	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	5da9cbc24da2b272
+31	4918	7625352055237611	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	5da9cbc24da2b272
+4918	4995	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	c7b42ae2cff38ad9
+4918	4995	0	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	c7b42ae2cff38ad9
+4995	5025	7625352056314590	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	a0b5330afc6346f7
+5144	5185	7625352057911923	CMakeFiles/sfml-populate-complete	e9003ed5e6aadcc5
+5025	5054	7625352056605708	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	d252e7c6b4b990cb
+5025	5054	7625352056605708	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	d252e7c6b4b990cb
+5054	5084	7625352056895702	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	2f6dd929c51aa298
+5054	5084	7625352056895702	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	2f6dd929c51aa298
+5084	5115	7625352057205698	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	42d76643880ea031
+5084	5115	7625352057205698	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	42d76643880ea031
+5115	5144	7625352057501918	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	111edf998e6c0e34
+5115	5144	7625352057501918	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	111edf998e6c0e34
+5144	5185	7625352057911923	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	e9003ed5e6aadcc5
+5144	5185	7625352057911923	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	e9003ed5e6aadcc5
+5144	5185	7625352057911923	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	e9003ed5e6aadcc5
+0	71	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	c7b42ae2cff38ad9
+0	71	0	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	c7b42ae2cff38ad9
+72	105	7625352228374680	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	a0b5330afc6346f7
+72	105	7625352228374680	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	a0b5330afc6346f7
+105	150	7625352228829777	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	d252e7c6b4b990cb
+105	150	7625352228829777	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	d252e7c6b4b990cb
+150	181	7625352229129732	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	2f6dd929c51aa298
+150	181	7625352229129732	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	2f6dd929c51aa298
+181	211	7625352229429767	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	42d76643880ea031
+181	211	7625352229429767	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	42d76643880ea031
+211	239	7625352229714815	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	111edf998e6c0e34
+211	239	7625352229714815	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	111edf998e6c0e34
+239	279	7625352230112188	CMakeFiles/sfml-populate-complete	e9003ed5e6aadcc5
+239	279	7625352230112188	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	e9003ed5e6aadcc5
+239	279	7625352230112188	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	e9003ed5e6aadcc5
+239	279	7625352230112188	C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	e9003ed5e6aadcc5

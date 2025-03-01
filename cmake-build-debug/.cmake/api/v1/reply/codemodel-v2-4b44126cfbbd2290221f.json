@@ -169,7 +169,7 @@
 					[
 						0
 					],
-					"name" : "Project1",
+					"name" : "Hexagon",
 					"targetIndexes" : 
 					[
 						0
@@ -205,49 +205,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Project1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Project1-Debug-f379d777ebf8d17921d2.json",
+					"jsonFile" : "target-Project1-Debug-2e1efff823a06721cff2.json",
 					"name" : "Project1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "sfml-audio::@a153e5727587c53fce98",
-					"jsonFile" : "target-sfml-audio-Debug-80b1a2d63f88feaccf50.json",
+					"jsonFile" : "target-sfml-audio-Debug-170e5f2417f7612bb68b.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-Debug-7d886c06579c0a5567d3.json",
+					"jsonFile" : "target-sfml-graphics-Debug-6c5879a55fc10db4111e.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-main::@81ec5539f1398dd625f6",
-					"jsonFile" : "target-sfml-main-Debug-12b68fcda3108cae55a1.json",
+					"jsonFile" : "target-sfml-main-Debug-706a3a7d18ddeaf7ad6c.json",
 					"name" : "sfml-main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-network::@d7f79968b2699e7782cb",
-					"jsonFile" : "target-sfml-network-Debug-43a1212bd4a4b4dca77a.json",
+					"jsonFile" : "target-sfml-network-Debug-099d524bb6cf37cff312.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@8cb1db2982443611e568",
-					"jsonFile" : "target-sfml-system-Debug-b962246c718553649e08.json",
+					"jsonFile" : "target-sfml-system-Debug-5e4a95edb8f5731ac1be.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-window::@5730451e331e3690ae65",
-					"jsonFile" : "target-sfml-window-Debug-5cb8f37e613607c1848f.json",
+					"jsonFile" : "target-sfml-window-Debug-5193b89af3133d046eca.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}
@@ -257,8 +257,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1/cmake-build-debug",
-		"source" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Project1"
+		"build" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon/cmake-build-debug",
+		"source" : "C:/Users/PC/Desktop/Studia/semestr 2/PJC/Hexagon"
 	},
 	"version" : 
 	{

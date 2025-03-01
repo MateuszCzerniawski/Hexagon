@@ -29,17 +29,41 @@ void Display::addSingleHexagon(float x,float y){
     hexagon.setOutlineThickness(radius*0.2f);
     hexagon.setFillColor(parameters->field);
     const char& tmp = board->getData().at(whichOne)->getWhoHere();
-    if(tmp=='x')hexagon.setFillColor(sf::Color::Transparent);
-    if(tmp=='f')hexagon.setFillColor(parameters->player1);
-    if(tmp=='s')hexagon.setFillColor(parameters->player2);
-    if(tmp=='n')hexagon.setOutlineColor(parameters->selection1);
-    if(tmp=='d')hexagon.setOutlineColor(parameters->selection2);
+    switch(tmp){
+        case 'x':
+            hexagon.setFillColor(sf::Color::Transparent);
+            break;
+        case 'f':
+            hexagon.setFillColor(parameters->player1);
+            drawSprite(window,parameters->getFirstPlayerTexture(),x,y,1);
+            break;
+        case 's':
+            hexagon.setFillColor(parameters->player2);
+            drawSprite(window,parameters->getSecondPlayerTexture(),x,y,1);
+            break;
+        case 'n':
+            hexagon.setOutlineColor(parameters->selection1);
+            break;
+        case 'd':
+            hexagon.setOutlineColor(parameters->selection2);
+            break;
+    }
     hexagon.setPosition({x, y});
     buttons->push_back(hexagon);
     window->draw(hexagon);
-    if(tmp=='f')drawSprite(window,parameters->getFirstPlayerTexture(),x,y,1);
-    else if(tmp=='s')drawSprite(window,parameters->getSecondPlayerTexture(),x,y,1);
-    else if(tmp!='x')drawSprite(window,parameters->getFieldTexture(),x,y,1);
+    switch (tmp) {
+        case 'f':
+            drawSprite(window, parameters->getFirstPlayerTexture(), x, y, 1);
+            break;
+        case 's':
+            drawSprite(window, parameters->getSecondPlayerTexture(), x, y, 1);
+            break;
+        case 'x':
+            break;
+        default:
+            drawSprite(window, parameters->getFieldTexture(), x, y, 1);
+            break;
+    }
 }
 void Display::addHexagons(){
     delete buttons;
@@ -55,7 +79,7 @@ void Display::addHexagons(){
     }
     for(int i=6;i<13;i++){
         int m=i%2==0?4:5; //parametr do ustawiania równo
-        for(int j=m-1;j>=0;j--)//for(int j=0;j<m;j++)
+        for(int j=m-1;j>=0;j--)
         {
             float x=(width / 2) - radius*(1.7f*(j-m/2.f))-radius*2,y=1.7f*i*radius;
             if(x>width/2) x+=radius*offset*(m/2.f-j);
@@ -65,7 +89,7 @@ void Display::addHexagons(){
     }
     for(int i=13;i<=17;i++){
         int m=(18-i); //parametr odwracający kolejność
-        for(int j=m-1;j>=0;j--)//for(int j=0;j<m;j++)
+        for(int j=m-1;j>=0;j--)
         {
             float x=(width / 2) - radius*(1.7f*(j-m/2.f))-radius*2,y=1.7f*i*radius;
             if(x>width/2) x+=radius*offset*(m/2.f-j);
@@ -123,45 +147,16 @@ set<int> Display::findNearestNeighbours(int which) {
     sf::CircleShape hexagon=buttons->at(which);
     sf::Vector2f where=hexagon.getPosition();
     set<int> closeNeighbours;
-    //tworzymy przesunięcia aby zobaczyć sąsiadów
-    sf::Vector2f loc1=sf::Vector2f(0.f,-3.f*radius),loc2=sf::Vector2f(-1.3f*radius,-1.3f*radius),
-            loc3=sf::Vector2f(1.3f*radius,-1.3f*radius),loc4=sf::Vector2f(-1.3f*radius,1.3f*radius),
-            loc5=sf::Vector2f(1.3f*radius,1.3f*radius),loc6=sf::Vector2f(0.f,3.f*radius);
-    sf::Vector2f here=where+loc1;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && within(here,button))
-            closeNeighbours.insert(i);
-    }
-    here=where+loc2;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && within(here,button))
-            closeNeighbours.insert(i);
-    }
-    here=where+loc3;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && within(here,button))
-            closeNeighbours.insert(i);
-    }
-    here=where+loc4;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && within(here,button))
-            closeNeighbours.insert(i);
-    }
-    here=where+loc5;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && within(here,button))
-            closeNeighbours.insert(i);
-    }
-    here=where+loc6;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && within(here,button))
-            closeNeighbours.insert(i);
+    std::vector<sf::Vector2f> locs={sf::Vector2f(0.f,-3.f*radius),sf::Vector2f(-1.3f*radius,-1.3f*radius),
+                                    sf::Vector2f(1.3f*radius,-1.3f*radius),sf::Vector2f(-1.3f*radius,1.3f*radius),
+                                    sf::Vector2f(1.3f*radius,1.3f*radius),sf::Vector2f(0.f,3.f*radius)};
+    for(sf::Vector2f loc : locs){
+        sf::Vector2f here=where+loc;
+        for(int i=0;i<buttons->size();i++){
+            sf::Rect<float> button=buttons->at(i).getGlobalBounds();
+            if(i!=which && within(here,button))
+                closeNeighbours.insert(i);
+        }
     }
     return closeNeighbours;
 }
@@ -170,44 +165,16 @@ set<int> Display::findDistantNeighbours(int which,int lock){
     sf::CircleShape hexagon=buttons->at(which);
     sf::Vector2f where=hexagon.getPosition();
     //tworzymy przesunięcia aby zobaczyć sąsiadów
-    sf::Vector2f loc1=sf::Vector2f(0.f,-3.f*radius),loc2=sf::Vector2f(-1.3f*radius,-1.3f*radius),
-            loc3=sf::Vector2f(1.3f*radius,-1.3f*radius),loc4=sf::Vector2f(-1.3f*radius,1.3f*radius),
-            loc5=sf::Vector2f(1.3f*radius,1.3f*radius),loc6=sf::Vector2f(0.f,3.f*radius);
-    sf::Vector2f here=where+loc1;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && i!=lock && within(here,button))
-            distantNeighbours.insert(i);
-    }
-    here=where+loc2;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && i!=lock && within(here,button))
-            distantNeighbours.insert(i);
-    }
-    here=where+loc3;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && i!=lock && within(here,button))
-            distantNeighbours.insert(i);
-    }
-    here=where+loc4;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && i!=lock && within(here,button))
-            distantNeighbours.insert(i);
-    }
-    here=where+loc5;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && i!=lock && within(here,button))
-            distantNeighbours.insert(i);
-    }
-    here=where+loc6;
-    for(int i=0;i<buttons->size();i++){
-        sf::Rect<float> button=buttons->at(i).getGlobalBounds();
-        if(i!=which && i!=lock && within(here,button))
-            distantNeighbours.insert(i);
+    std::vector<sf::Vector2f> locs={sf::Vector2f(0.f,-3.f*radius),sf::Vector2f(-1.3f*radius,-1.3f*radius),
+                                    sf::Vector2f(1.3f*radius,-1.3f*radius),sf::Vector2f(-1.3f*radius,1.3f*radius),
+                                    sf::Vector2f(1.3f*radius,1.3f*radius),sf::Vector2f(0.f,3.f*radius)};
+    for(sf::Vector2f loc : locs){
+        sf::Vector2f here=where+loc;
+        for(int i=0;i<buttons->size();i++){
+            sf::Rect<float> button=buttons->at(i).getGlobalBounds();
+            if(i!=which && within(here,button))
+                distantNeighbours.insert(i);
+        }
     }
     return distantNeighbours;
 }

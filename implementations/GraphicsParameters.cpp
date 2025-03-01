@@ -10,9 +10,7 @@ void GraphicsParameters::changeColors(){
         case CRYSTALS:
             background=sf::Color::Black;
             field=sf::Color::White;
-            //player1=sf::Color::Blue;
             player1=sf::Color(86, 93, 117,255);
-            //player2=sf::Color::Red;
             player2=sf::Color(209, 50, 55,255);
             selection1=sf::Color::Yellow;
             selection2=sf::Color::Green;
@@ -20,9 +18,7 @@ void GraphicsParameters::changeColors(){
         case MINIMALISM:
             background=sf::Color::Black;
             field=sf::Color::White;
-            //player1=sf::Color::Blue;
             player1=sf::Color(50, 66, 209,255);
-            //player2=sf::Color::Red;
             player2=sf::Color(209, 50, 55,255);
             selection1=sf::Color::Yellow;
             selection2=sf::Color::Green;
@@ -30,9 +26,7 @@ void GraphicsParameters::changeColors(){
         case TEMPEST:
             background=sf::Color::Black;
             field=sf::Color::White;
-            //player1=sf::Color::Blue;
             player1=sf::Color(128,70,148,225);
-            //player2=sf::Color::Magenta;
             player2=field;
             selection1=sf::Color::Yellow;
             selection2=sf::Color::Green;
